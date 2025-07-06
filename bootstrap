@@ -3,8 +3,8 @@
 out="$3"
 mkdir -p "$out/.idx" "$out/.vscode"
 cp "$1" "$out/.idx/dev.nix"
-chmod +w "$out/.vscode/settings.json"
 cp "$2" "$out/.vscode/settings.json"
+cp "$2" "$out/.vscode/settings.json.bak"
 shift 3
 
 case "$1" in
