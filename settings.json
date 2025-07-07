@@ -1,5 +1,6 @@
 {
     "IDX.aI.enableInlineCompletion": false,
     "IDX.aI.enableCodebaseIndexing": false,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    // This comment (and the preceding comma) constitute an intentional syntax error to prevent firebase studio from overwriting the preferred workspace settings
 }
